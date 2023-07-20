@@ -151,29 +151,49 @@
  .projet{
     font-family: sans-serif;
     color: #DC3545;
- }.v{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 70px;
-    color: #DC3545;
  }
- .w{
+ .jjj{
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 70px;
+   color: #FFC107;
+ }
+ .vvv{
+    /* text-align: center; */
+    /* margin: 444px; */
+     /* text-align: left; */
+   
+    /* background-color: #DC3545; */
+    /* align-items: center; */
+ }
+ .ttt{
     text-align: center;
     font-family: sans-serif;
     font-size: 20px; 
  }
- .X{
-    display: flex;
-    /* background-color: #212529; */
+ .v{
+   text-align: center;
+   /* text-align: left; */
+  font-family: sans-serif;
+  font-size: 70px;
+  color: #DC3545;
+}
+.w{
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 20px;  
+}
+ 
+ .XX{
+    
+    margin-left: 200px;
+    margin-right: 200px; 
  }
  .y{
     font-family: sans-serif;
     font-size: 20px;
  }
- .XX{
-    margin-left: 300px;
-    margin-right: 300px;
- }
+ 
  .oo{
     text-align: center;
     font-family: sans-serif;
@@ -199,6 +219,9 @@
     font-style: italic;
     color: white;
  }
+ .progress{
+   /* flex-direction: column; */
+ }
  .zz{
     height: 220px;
     background-color:#6C757D
@@ -220,6 +243,147 @@
  .team{
     background-color: #6C757D;
  }
- @media screen {
-   
+ @media screen and ( max-width: 1000px) {
+   .uu{
+      margin-left: 0px;
+      margin-right: 0px 
+      
+   }
  }
+ @media screen and (max-width: 300px){
+   .A{
+      width: 200%;
+      margin-left: 0px;
+      height: 0px;
+      /* text-align: start; */
+     }
+  }
+  
+ 
+ @media screen  and (max-width: 600px){
+    .N{
+       flex-direction: column;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+   .T{
+      flex-direction: column;
+   }
+   
+   .header{
+      flex-direction: column;
+   }
+ }
+ @media screen and (max-width: 600px){
+    .AA {
+      
+       flex-direction: column;
+       }
+     }
+    
+   
+ 
+ @media screen and (max-width: 600px){
+   .XX{
+      margin-left: 0px;
+      margin-right: 0px;
+   }
+   .A a{
+      /* margin-left: 0px; */
+      /* margin-top: 0px; */
+   }
+  }
+   .vvv{
+      text-align: left; 
+     }
+     .www{
+      text-align: left;
+   }
+   @media screen and (max-width: 300px){
+      .B{
+         /* width:  200%; */
+         margin: 0;
+      }
+      .header{
+         width: 200%;
+         height: 800px;
+      }
+      .N{
+         text-align: center;
+         width: 200%;
+         /* background-color: #17a2b8; */
+      }
+      .t{
+         text-align: center;
+         /* background-color: #212529; */
+         width: 200%;
+      }
+      .u{
+         width: 200%;
+         /* background-color: #302b2c; */
+         /* color: whitesmoke; */
+         text-align: center;
+      }
+       .T{
+          text-align: center;
+          /* background-color: #302b2c; */
+          width: 200%;
+          
+      }
+      .card {
+         margin-left: 30%;
+      }
+      .X{
+         /* width: 200%; */
+         margin-right: 20%;
+      }
+      .team{
+         width: 200%;
+      }
+      .NNN{
+         /* background-color: #17a2b8; */
+         width: 200%;
+         text-align: center;
+      }
+      .XX{
+         /* background-color: #17a2b8; */
+         width: 200%;
+      }
+      .BB{
+         width: 200%;
+         text-align: center;
+      }
+      .CC{
+         width: 200%;
+         text-align: center;
+      }
+      .navbar{
+         /* background-color: #17a2b8; */
+         width: 200%;
+      }
+
+      .QQ{
+         /* background-color: #17a2b8; */
+         margin-left: 10%;
+         margin-right: 10%;
+      }
+      .KO{
+         /* background-color: #17a2b8; */
+         width: 200%;
+      }
+      .uu{
+         /* background-color: #17a2b8; */
+         width: 200%;
+      
+
+      }
+      .mb-3{
+         /* background-color: #17a2b8; */
+         margin-left: 10%;
+         margin-right: 10%;
+      }
+      .zz{
+         width: 200%;
+      }
+   }
+ 
